@@ -17,7 +17,7 @@ const Coin = ({ data, usd }) => {
 };
 
 const coinValue = {
-	color: 'lightgreen',
+	color: 'green',
 };
 
 const postStyles = {

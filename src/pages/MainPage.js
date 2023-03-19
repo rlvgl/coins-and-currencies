@@ -52,11 +52,11 @@ const MainPage = () => {
 
 			{/* Coin Grid */}
 			<section style={coinGrid}>
-				{(userOpts == 0 || userOpts == 1) &&
+				{(userOpts === 0 || userOpts === 1) &&
 					coins.map((data, key) => {
 						return <Coin data={data} usd={btcToDollar} key={key} />;
 					})}
-				{(userOpts == 0 || userOpts == 2) &&
+				{(userOpts === 0 || userOpts === 2) &&
 					currencies.map((data, key) => {
 						return <Coin data={data} usd={btcToDollar} key={key} />;
 					})}
