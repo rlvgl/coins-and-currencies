@@ -72,7 +72,7 @@ const MainPage = () => {
 const footerStyle = {
 	display: 'flex',
 	justifyContent: 'center',
-	margin: '3rem 0',
+	marginTop: '3rem',
 };
 
 const subheaderStyle = {
@@ -80,7 +80,9 @@ const subheaderStyle = {
 };
 
 const headerStyle = {
-	margin: '1rem 0 ',
+	padding: '1rem 0',
+	boxSizing: 'border-box',
+	fontSize: '5rem',
 };
 
 const heroStyle = {
@@ -93,19 +95,17 @@ const heroStyle = {
 const coinGrid = {
 	display: 'grid',
 	alignItems: 'center',
-	gridTemplateColumns: 'repeat(auto-fit, minmax(500px, 1fr))',
+	gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))',
 	gridGap: '40px',
 };
 
 const mainPageStyles = {
-	padding: '4rem 10rem',
+	padding: '4rem 1rem',
 	boxSizing: 'border-box',
 	display: 'flex',
 	flexDirection: 'column',
-	// justifyContent: 'space-between',
 	minHeight: '100vh',
-	// backgroundColor: 'black',
-	// color: 'white',
+	maxWidth: '90vw !important',
 };
 
 export default MainPage;
